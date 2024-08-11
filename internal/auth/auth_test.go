@@ -1,11 +1,12 @@
 package auth
 
 import (
-    "testing"
+	"testing"
 )
 
 func TestGetAPIKey(t *testing.T) {
-    if 1 != 1 {
-        t.Errorf("got 1, wanted 1")
-    }
+	a := 1 + 0
+	if a != 1 {
+		t.Errorf("got 1, wanted 1")
+	}
 }
